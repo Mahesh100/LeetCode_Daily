@@ -4,7 +4,7 @@ class Solution {
 		return 0;
 	}
  
-	return getKth(nums.length - k +1, nums, 0, nums.length - 1);
+return getKth(nums.length - k +1, nums, 0, nums.length - 1);
 }
  
 public int getKth(int k, int[] nums, int start, int end) {
